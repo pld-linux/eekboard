@@ -1,7 +1,7 @@
 Summary:	An Easy-to-use Virtual Keyboard Toolkit
 Name:		eekboard
 Version:	0.90.7
-Release:	5
+Release:	6
 License:	GPL v3+
 Group:		Applications/System
 Source0:	http://github.com/downloads/ueno/eekboard/%{name}-%{version}.tar.gz
