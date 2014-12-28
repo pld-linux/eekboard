@@ -10,7 +10,7 @@ Source0:	http://github.com/downloads/ueno/eekboard/%{name}-%{version}.tar.gz
 # Source0-md5:	83584689cd3353d2f471d01f4f5f2efd
 URL:		http://fedorahosted.org/eekboard/
 BuildRequires:	at-spi2-core-devel
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	glib2-devel >= 1:2.26.0
 BuildRequires:	gobject-introspection-devel >= 0.9.0
 BuildRequires:	gtk-doc >= 1.14
