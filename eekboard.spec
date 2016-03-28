@@ -2,7 +2,7 @@ Summary:	An Easy-to-use Virtual Keyboard Toolkit
 Summary(pl.UTF-8):	Łatwy w użyciu toolkit wirtualnej klawiatury
 Name:		eekboard
 Version:	1.0.8
-Release:	6
+Release:	7
 License:	LGPL v2+ (libraries), GPL v3+ (programs)
 Group:		Applications/System
 #Source0Download: https://github.com/ueno/eekboard/downloads
@@ -13,8 +13,8 @@ BuildRequires:	at-spi2-core-devel
 BuildRequires:	gettext-tools
 BuildRequires:	glib2-devel >= 1:2.26.0
 BuildRequires:	gobject-introspection-devel >= 0.9.0
-BuildRequires:	gtk-doc >= 1.14
 BuildRequires:	gtk+3-devel >= 3.0
+BuildRequires:	gtk-doc >= 1.14
 BuildRequires:	intltool >= 0.35.0
 BuildRequires:	libcanberra-gtk3-devel
 BuildRequires:	libcroco-devel >= 0.6
@@ -71,6 +71,9 @@ License:	LGPL v2+
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 Requires:	vala >= 2:0.10.0
+%if "%{_rpmversion}" >= "5"
+BuildArch:	noarch
+%endif
 
 %description -n vala-eekboard
 Vala API for eekboard libraries.
