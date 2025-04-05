@@ -5,10 +5,10 @@ Version:	1.0.8
 Release:	8
 License:	LGPL v2+ (libraries), GPL v3+ (programs)
 Group:		Applications/System
-#Source0Download: https://github.com/ueno/eekboard/downloads
-Source0:	http://github.com/downloads/ueno/eekboard/%{name}-%{version}.tar.gz
+#Source0Download: https://github.com/ueno/eekboard/tags
+Source0:	https://github.com/downloads/ueno/eekboard/%{name}-%{version}.tar.gz
 # Source0-md5:	83584689cd3353d2f471d01f4f5f2efd
-URL:		http://fedorahosted.org/eekboard/
+URL:		https://github.com/downloads/ueno
 BuildRequires:	at-spi2-core-devel
 BuildRequires:	gettext-tools
 BuildRequires:	glib2-devel >= 1:2.26.0
