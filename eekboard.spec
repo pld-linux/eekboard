@@ -2,7 +2,7 @@ Summary:	An Easy-to-use Virtual Keyboard Toolkit
 Summary(pl.UTF-8):	Łatwy w użyciu toolkit wirtualnej klawiatury
 Name:		eekboard
 Version:	1.0.8
-Release:	8
+Release:	9
 License:	LGPL v2+ (libraries), GPL v3+ (programs)
 Group:		Applications/System
 #Source0Download: https://github.com/ueno/eekboard/tags
