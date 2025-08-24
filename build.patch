@@ -1,0 +1,11 @@
+--- eekboard-1.0.8/eekboard/eekboard-context.c~	2012-03-30 04:23:36.000000000 +0200
++++ eekboard-1.0.8/eekboard/eekboard-context.c	2025-08-24 21:44:22.212776094 +0200
+@@ -151,7 +151,7 @@ eekboard_context_real_destroyed (Eekboar
+ 
+ static void
+ eekboard_context_real_key_activated (EekboardContext *self,
+-                                     const gchar     *keyname,
++                                     guint            keyval,
+                                      EekSymbol       *symbol,
+                                      guint            modifiers)
+ {
